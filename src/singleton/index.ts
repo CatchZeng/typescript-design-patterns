@@ -1,3 +1,5 @@
+// https://en.wikipedia.org/wiki/Singleton_pattern
+
 class Singleton {
   private static instance: Singleton;
 
@@ -12,6 +14,7 @@ class Singleton {
 }
 
 // client code
+
 const s1 = Singleton.getInstance();
 const s2 = Singleton.getInstance();
 if (s1 === s2) {
@@ -19,3 +22,7 @@ if (s1 === s2) {
 } else {
   console.log("Singleton failed.");
 }
+
+// Output
+
+// Singleton works.
