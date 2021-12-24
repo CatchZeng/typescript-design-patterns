@@ -8,8 +8,8 @@
 - [工厂方法模式（Factory Method）]()
 - [抽象工厂模式（Abstract Factory）]()
 - [创建者模式（Builder）]()
-- [原型模式（Prototype）](./src/singleton/singleton.ts)
-- [单例模式（Singleton）]()
+- [原型模式（Prototype）]()
+- [单例模式（Singleton）](./src/singleton/singleton.ts)
 
 ## 结构型
 
