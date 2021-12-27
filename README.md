@@ -15,7 +15,7 @@
 - [外观模式 (Facade)]()
 - [适配器模式 (Adapter)]()
 - [代理模式 (Proxy)]()
-- [组合模式 (Composite)]()
+- [组合模式 (Composite)](./src/composite/index.ts)：把多个对象组成**树状结构**来表示**局部**与**整体**，这样用户可以**一样的对待单个对象和对象的组合**。
 - [享元模式 (Flyweight)]()
 - [装饰模式 (Decorator)]()
 - [桥模式 (Bridge)]()
