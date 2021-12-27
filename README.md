@@ -24,7 +24,7 @@
 
 - [中介者模式 (Mediator)]()
 - [观察者模式 (Observer)]()
-- [命令模式 (Command)]()
+- [命令模式 (Command)](./src/command/index.ts)：将一个**请求**封装为一个**对象**，从而使你可用不同的请求对客户进行参数化；对请求排队或记录请求**日志**，以及支持**可取消**的操作。
 - [迭代器模式 (Iterator)]()
 - [模板方法模式 (Template Method)]()
 - [策略模式 (Strategy)]()

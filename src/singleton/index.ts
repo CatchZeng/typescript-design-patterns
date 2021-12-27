@@ -1,28 +1,30 @@
 // https://en.wikipedia.org/wiki/Singleton_pattern
 
-class Singleton {
-  private static instance: Singleton;
+namespace SingletonPattern {
+  class Singleton {
+    private static instance: Singleton;
 
-  private constructor() {}
+    private constructor() {}
 
-  public static getInstance(): Singleton {
-    if (!Singleton.instance) {
-      Singleton.instance = new Singleton();
+    public static getInstance(): Singleton {
+      if (!Singleton.instance) {
+        Singleton.instance = new Singleton();
+      }
+      return Singleton.instance;
     }
-    return Singleton.instance;
   }
+
+  // client code
+
+  const s1 = Singleton.getInstance();
+  const s2 = Singleton.getInstance();
+  if (s1 === s2) {
+    console.log("Singleton works.");
+  } else {
+    console.log("Singleton failed.");
+  }
+
+  // Output
+
+  // Singleton works.
 }
-
-// client code
-
-const s1 = Singleton.getInstance();
-const s2 = Singleton.getInstance();
-if (s1 === s2) {
-  console.log("Singleton works.");
-} else {
-  console.log("Singleton failed.");
-}
-
-// Output
-
-// Singleton works.
