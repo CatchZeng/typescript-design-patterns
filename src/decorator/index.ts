@@ -1,3 +1,5 @@
+// https://en.wikipedia.org/wiki/Decorator_pattern
+
 namespace DecoratorPattern {
   interface Component {
     operation(): void;

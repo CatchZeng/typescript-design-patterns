@@ -1,3 +1,5 @@
+// https://en.wikipedia.org/wiki/Flyweight_pattern
+
 namespace FlyweightPattern {
   interface IFlyweight {
     code: number;
