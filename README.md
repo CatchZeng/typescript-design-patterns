@@ -17,7 +17,7 @@
 - [代理模式 (Proxy)](./src/proxy/index.ts)：为其他对象提供一个**代理**以**控制对这个对象的访问**。
 - [组合模式 (Composite)](./src/composite/index.ts)：把多个对象组成**树状结构**来表示**局部**与**整体**，这样用户可以**一样的对待单个对象和对象的组合**。
 - [享元模式 (Flyweight)](./src/flyweight/index.ts)：通过**共享**以便有效的支持**大量小颗粒对象**。
-- [装饰模式 (Decorator)]()
+- [装饰模式 (Decorator)](./src/decorator/index.ts)：向某个对象**动态地添加更多的功能**。修饰模式是**除类继承**外另一种**扩展功能**的方法。
 - [桥模式 (Bridge)]()
 
 ## 行为型
