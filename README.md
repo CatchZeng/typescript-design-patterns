@@ -16,7 +16,7 @@
 - [适配器模式 (Adapter/Wrapper/Translator)](./src/adapter/index.ts)：将某个类的接口**转换成客户端期望的**另一个**接口表示**。适配器模式可以**消除由于接口不匹配**所造成的**类兼容性问题**。
 - [代理模式 (Proxy)](./src/proxy/index.ts)：为其他对象提供一个**代理**以**控制对这个对象的访问**。
 - [组合模式 (Composite)](./src/composite/index.ts)：把多个对象组成**树状结构**来表示**局部**与**整体**，这样用户可以**一样的对待单个对象和对象的组合**。
-- [享元模式 (Flyweight)]()
+- [享元模式 (Flyweight)](./src/flyweight/index.ts)：通过**共享**以便有效的支持**大量小颗粒对象**。
 - [装饰模式 (Decorator)]()
 - [桥模式 (Bridge)]()
 
